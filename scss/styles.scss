@@ -1,0 +1,35 @@
+@import "reset";
+
+body {
+	background: linear-gradient(to right, rgba(67,82,55,1) 0%, rgba(66,135,5,1) 100%)
+}
+
+.container {
+	width: 940px;
+	margin: auto;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	background :lightblue;
+	border: 1px solid blue;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.boxes {
+	border: 1px solid blue;
+	flex-basis: 30%;
+	flex-grow: 1;
+}
+
+.box_sites {
+	width: 25%;
+	border: 1px solid blue;
+}
+
+.input {
+	margin: auto;
+	text-align: center;
+}
